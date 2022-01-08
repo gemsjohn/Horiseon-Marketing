@@ -148,17 +148,6 @@ a {
     font-size: 2.0vh;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
 p {
     font-size: 1.5vh;
 }
@@ -173,19 +162,49 @@ p {
     margin-left: 25px;
 }
 
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-lead {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 32px;
+    color: var(--common-text-color);
+}
+
+@media (max-width: 1000px) {
+    .benefits {
+        width: 100%;
+    }
+}
+
+
 /* Section - Content END */
 
 
 
 
 
-
-
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: var(--common-text-color);
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
 
 .benefit-brand {
     margin-bottom: 32px;
@@ -197,10 +216,7 @@ p {
     color: var(--common-text-color);
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+
 
 .benefit-brand h3 {
     margin-bottom: 10px;
@@ -212,11 +228,7 @@ p {
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+
 
 .benefit-brand img {
     display: block;
@@ -229,7 +241,6 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
 
 
 
