@@ -199,17 +199,17 @@ p {
     font-size: 1.5vh;
 }
 
-/* When the Horiseon marketing website <= 1300px width, the benefits section expands to the full 
+/* When the Horiseon marketing website <= 1000px width, the benefits section expands to the full 
     width of the screen. This benefits tablet and/or phone users. */
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
     .benefits {
         width: 100%;
     }
 }
 
-/* When the Horiseon marketing website is >= 1300px width, the benefits section uses flexbox to 
+/* When the Horiseon marketing website is >= 1000px width, the benefits section uses flexbox to 
     essentially 'float right'. This is done using flex-direction: column. */
-@media (min-width: 1300px) {
+@media (min-width: 1000px) {
     .benefits {
         display: flex;
         flex-direction: column;
