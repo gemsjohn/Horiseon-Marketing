@@ -23,4 +23,4 @@ The following image is a representation of what the website looks like on deskto
 
 ![Horiseon Marketing Website Link](https://github.com/gemsjohn/Horiseon-Marketing/blob/main/assets/images/mockup.png?raw=true)
 
-UNC Coding Bootcamp - Full Stack Development - John Martin - 09JAN2021
+UNC Coding Bootcamp - Full Stack Development - John Martin - 09JAN2022
